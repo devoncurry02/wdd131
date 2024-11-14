@@ -32,12 +32,16 @@ nav li a:visited {
 }
 
 figure {
-    text-align:left;
+    text-align:center;
     margin:0 auto;
 }
 
 figure img {
     width:100%;
+}
+
+figcaption {
+    font-size:1.4em;
 }
 
 h1 {
