@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Devon Curry" />
+    <meta name="description" content="About a place I've visited." />
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title-box">
+            <h1>Shiprock, NM</h1>
+        </div>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 1024px)" srcset="images/shiprock-large.jpg">
+            <img src="images/shiprock-small.webp" alt="Shiprock, NM">
+        </picture>
+        <div class="data">
+            <h2>Data</h2>
+                <p>Elevation: 4900ft</p>
+                <p>Land area: 15.9sq miles</p>
+                <p>Population: 8,295</p>
+                <p>Language: English, Navajo</p>
+                <p>Zip code: 87420</p>
+                <p>Cost of living index: 84.5</p>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+                <p>Temperature: 40F</p>
+                <p>Conditions: Cloudy</p>
+                <p>Wind Speed: 5 mph</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>    Devon Curry    Idaho, USA
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
