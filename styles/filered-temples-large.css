@@ -1,0 +1,16 @@
+@media screen and (min-width: 500px) {
+    .navigation ul {
+        display:flex;
+        flex-direction: row;
+    }
+    .temple-grid {
+        max-width:100%;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    button {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+    }
+}

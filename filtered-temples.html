@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="author" content="Devon Curry">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/filtered-temples.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu"></button>
+        <nav class="navigation">
+          <ul>
+            <li><a href="#" id="all">Home</a></li>
+            <li><a href="#" id="old">Old</a></li>
+            <li><a href="#" id="new">New</a></li>
+            <li><a href="#" id="large">Large</a></li>
+            <li><a href="#" id="small">Small</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div class="temple-grid">    
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>    Devon Curry    Idaho, USA
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Fredericka+the+Great&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Fredericka+the+Great&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap');
+/*ffe2d1-e1f0c4-6bab90-55917f-5e4c5a*/
+
+.navigation ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation.open ul {
+    display: flex;
+}
+
+.temple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    gap:16px;
+    margin:15px auto;
+    border: solid 3px lightgray;
+    padding: 10px;
+}
+
+nav li a {
+    color:white;
+    display:block;
+    padding:10px 10% 10px 10%;
+    text-align:center;
+    text-decoration:none;
+}
+
+nav li a:hover {
+    background-color:#317561;
+}
+
+nav li a:visited {
+    color:white;
+}
+
+h1 {
+    text-align:center;
+    color:white;
+    font-size:32px;
+    font-family:Roboto, Georgia;
+}
+
+h2 {
+    text-align:center;
+}
+
+h3 {
+    font-family: Overpass, Roboto;
+    text-align:center;
+}
+
+header {
+    background-color:#6BAB90;
+    padding-top:4px;
+}
+
+nav {
+    background-color:#55917F;
+}
+
+nav li {
+    flex:1;
+}
+
+nav ul {
+    list-style-type:none;
+    justify-content:space-around;
+    padding: 0;
+}
+
+main ul {
+    grid-column:1/4;
+    margin: 10%;
+}
+
+p {
+    font-size:1.2em;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Georgia;
+}
+
+img {
+    width:100%;
+}
+
+footer {
+    background-color:#6BAB90;
+    color:white;
+    text-align:center;
+}
