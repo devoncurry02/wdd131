@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+    <meta name="author" content="Devon Curry">
+    <meta name="description" content="A page to practice making forms">
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"></script>
+    <script defer src="scripts/getdates.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <label for="productChoice">Select Product:</label>
+            <select id="productChoice" name="productChoice" required>
+                <option value="" disabled selected>Select a Product...</option>
+            </select>
+            <fieldset>
+                <h3>Rating:</h3>
+                <input type="radio" id="star1" name="stars" value="1" required>
+                <label for="star1">&star;<br></label>
+                <input type="radio" id="star2" name="stars" value="2" required>
+                <label for="star2">&star;&star;<br></label>
+                <input type="radio" id="star3" name="stars" value="3" required>
+                <label for="star3">&star;&star;&star;<br></label>
+                <input type="radio" id="star4" name="stars" value="4" required>
+                <label for="star4">&star;&star;&star;&star;<br></label>
+                <input type="radio" id="star5" name="stars" value="5" required>
+                <label for="star5">&star;&star;&star;&star;&star;<br></label>
+            </fieldset>
+            <label for="whenInstalled">Installation Date:</label>
+            <input type="date" id="whenInstalled" name="whenInstalled" required>
+            <fieldset>
+                <h3>Favorite Features:</h3>
+                <input type="checkbox" id="fav1" name="fav1" value="Feature 1">
+                <label for="fav1">Feature 1<br></label>
+                <input type="checkbox" id="fav2" name="fav2" value="Feature 2">
+                <label for="fav2">Feature 2<br></label>
+                <input type="checkbox" id="fav3" name="fav3" value="Feature 3">
+                <label for="fav3">Feature 3<br></label>
+            </fieldset>
+            <label for="writtenReview">Written Review: (optional)</label>
+            <textarea id="review" name="review"></textarea>
+            <label for="userName"><br><br>User Name: (optional)</label>
+            <input type="text" id="userName" name="userName">
+            <h3><br></h3>
+            <input class="sub" type="submit" value="Send Review">
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>    Devon Curry    Idaho, USA
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

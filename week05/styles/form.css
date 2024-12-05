@@ -1,0 +1,29 @@
+h1, p {
+    text-align:center;
+}
+
+header {
+    background-color:#6BAB90;
+    color: white;
+    padding:10px 10px 10px 10px;
+}
+
+fieldset {
+    margin:10px 0px 10px 0;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    border: solid 2px black;
+}
+
+footer {
+    background-color:#6BAB90;
+    color:white;
+    text-align:center;
+}
