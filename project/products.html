@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchid & Éclait | Products</title>
+    <meta name="author" content="Devon Curry" />
+    <meta name="description" content="Contains cards with information about each type of tallow the company sells." />
+    <link rel="stylesheet" href="styles/main.css">
+    <script defer src="scripts/products.js"></script>
+    <script defer src="scripts/getdates.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/Logo-small.png">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+            <button type="button">Contact Us</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Our Products</h1>
+        <div id="filter-options">
+            <label>List by</label>
+            <select id="filter">
+                <option value="cost">Cost</option>
+                <option value="scent">Scent</option>
+                <option value="type">Type</option>
+            </select>
+            <button id="input">Filter</button>
+        </div>
+        <div id="product-container" class="cards">
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Orchid & Éclait - <span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
