@@ -7,7 +7,9 @@
     <meta name="author" content="Devon Curry" />
     <meta name="description" content="Home page for Orchid & Éclait site. This will provide links to subpages and small pieces of information to get the user's attention." />
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main-small.css">
     <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/dropdown.js"></script>
 </head>
 <body>
     <header>
@@ -16,7 +18,13 @@
             <a href="index.html">Home</a>
             <a href="products.html">Products</a>
             <a href="about.html">About Us</a>
-            <button type="button">Contact Us</button>
+            <div class="menu">
+                <button id="menu-button">Contact Us</button>
+                <div id="menu-info" class="menu-content">
+                    <p>Phone: (208)-111-1111</p>
+                    <p>Email: devoncurrypiano@gmail.com</p>
+                </div>
+            </div>
         </nav>
     </header>
     <main>

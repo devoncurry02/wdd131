@@ -1,0 +1,68 @@
+@media screen and (max-width: 500px) {
+    header {
+        display:block;
+        text-align:center;
+    }
+
+    header img {
+        width: 60%;
+        margin-left: 0;
+    }
+
+    nav {
+        font-size:.65em;
+    }
+
+    nav a {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu-content {
+        position: static;
+        border: none;
+        padding: 5px;
+        background-color: white;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .herotext h1 {
+        font-size: 1.5em;
+    }
+
+    .herotext h3 {
+        font-size: .8em;
+        margin-top: 0;
+    }
+
+    .bodlinks {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .about-cards {
+        display: block;
+    }
+
+    .card1, .card2 {
+        flex-direction: column;
+        align-items: center;
+        border:solid 2px gray;
+    }
+
+    .card1 img, .card2 img {
+        width: 100%;
+    }
+
+    footer {
+        display:block;
+        text-align: right;
+    }
+}
