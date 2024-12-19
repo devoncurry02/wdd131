@@ -3,7 +3,7 @@ h1, p {
 }
 
 header {
-    background-color:#6BAB90;
+    background-color:#365749;
     color: white;
     padding:10px 10px 10px 10px;
 }
@@ -18,12 +18,16 @@ form {
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(235, 233, 243);
     border: solid 2px black;
 }
 
 footer {
-    background-color:#6BAB90;
+    background-color:#365749;
     color:white;
     text-align:center;
+}
+
+fieldset {
+    background-color:white;
 }
